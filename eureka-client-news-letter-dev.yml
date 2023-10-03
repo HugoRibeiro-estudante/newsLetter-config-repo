@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-client-software-house
+    name: eureka-client-news-letter
   data:
     mongodb:
       port: 27017
