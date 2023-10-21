@@ -24,11 +24,14 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 # RabbitMQ - Variaveis de ambiente customizadas
-softwareHouse:
+newsLetter:
   rabbitmq:
     exchange: newsLetter.exchange
     rountingkey: newsLetter.employee.routingkey
     queue: newsLetter.queue
+
+firebase:
+credential-file-name: firebase-account.json
 
 # Mostrar Queries MongoDB no Terminal:
 logging:
